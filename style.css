@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  min-height: 100px;
+  background-color: #fef7e2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  height: 30px;
+  margin: 10px;
+  background-color: #ffdf7f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  color: #6f1c01;
+  padding: 3px;
+}
+
+.box img {
+  display: flex;
+  align-items: center;
+  width: 51px;
+  height: 41px;
+}
+
+.box:nth-of-type(3) {
+  flex-grow: 1;
+  height: 81px;
+  width: 151px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 42px;
+}
+
+.box h2 {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
+
+main {
+  margin-left: 9px;
+  color: #6f1c01;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.second-boxes {
+  width: 275px;
+  height: 338px;
+  background-color: #fef7e2;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.second-boxes img {
+  width: 275px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.second-line-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 200px;
+  padding: 20px;
+}
+
+.up-right {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  align-self: flex-start;
+}
+
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards-button {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #ffdf7f;
+  color: #6f1c01;
+  border: none;
+  width: 165px;
+  height: 31px;
+  border-radius: 18px;
+  font-size: 17px;
+}
+
+#footer {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.last-box {
+  margin-top: 2rem;
+  margin-inline: auto;
+  background-color: #fef7e2;
+  border-radius: 25px;
+}
+
+.second-last-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  color: #6f1c01;
+}
+
+h1 {
+  color: #6f1c01;
+}
+
+.second-last-box h6 {
+  font-size: 14px;
+}
+
+.last-box img {
+  width: 100%;
+}
